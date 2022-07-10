@@ -1,0 +1,41 @@
+$leftSection-width: 48vw;
+$leftSection-height: 92vh;
+$section-width: 100%;
+$default-text-color: #212529;
+$autor-text:#E5E6E8;
+
+.leftSection{
+    width: $section-width;
+        img{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover; 
+        }
+        span{
+            position: absolute;
+            left: 132px;
+            top: 336px;
+            color:$default-text-color;
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 800;
+            font-size: 26px;
+            line-height: 35px;
+            text-transform: uppercase;
+        }
+        span:nth-child(3){
+            line-height: 136px;
+        }
+        span:nth-child(4){
+            position: absolute;
+            left: 132px;
+            top: 442px;
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 33px;
+            text-transform: uppercase;
+            color:$autor-text;
+        }
+}

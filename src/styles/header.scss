@@ -1,0 +1,12 @@
+$header-bgcolor: #7025FB;
+$header-width: 48%;
+$header-height: 8vh;
+
+.header{
+    background-color: $header-bgcolor;
+    width: 100%;
+    height: $header-height;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}

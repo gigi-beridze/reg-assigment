@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Heebo:wght@500&family=Montserrat&family=Nunito&family=Open+Sans&family=Poppins:wght@500&family=Roboto:wght@400;700&family=Rubik+Mono+One&display=swap');
+$rightSection-width: 52vw;
+$rightSection-height: 100vh;
+$rightSection-bgColor: #FD5334;
+$white-text-color: #fff;
+$small-text-color: #212529;
+$btn-color: #212529;
+$border-color:rgba(194, 165, 249, 0.8);
+
+.rightSection{
+    width: $rightSection-width;
+    height: $rightSection-height;
+    background-color: $rightSection-bgColor;
+    position: absolute;
+    right: 0px;
+}
+.textArea{
+    padding: 266px 416px 906px 85px;
+    width: 100vw;
+    cursor:default;
+}
+.whiteText{
+    color:$white-text-color;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 109px;
+    text-transform: uppercase;
+}
+.smallText{
+    color:$small-text-color;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 27px;
+    bottom: 20px;
+}
+.btn{
+    font-family: 'Open Sans';
+    display: flex;
+    text-align: center;
+    background-color: $btn-color;
+    border-radius: 8px;
+    color:$white-text-color;
+    padding: 14px 24px;
+    width: 192px;
+    height: 54px;
+    line-height: 28px;
+    font-style: normal;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+        img{
+            padding:0px 0px 100px 20px;
+            text-align: center;
+        }
+}
+.btn:hover{
+    border: 4px solid $border-color;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: all 1ms ease-in;
+}
+.button{
+    margin-top: 100px;
+}
+.finished{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
