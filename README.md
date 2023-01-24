@@ -1,5 +1,5 @@
 ```
-Frontend Mentor Easybank landing page challange
+ Redberry challange 
 ```
 View Demo👇: <br />
 https://bespoke-medovik-0364db.netlify.app/ <br />
